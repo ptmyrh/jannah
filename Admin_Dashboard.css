@@ -1,0 +1,236 @@
+/* Basic Reset */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header */
+header 
+{
+    background-color: #2a75b3;
+    padding: 15px 0;
+    margin-bottom: 20px;
+}
+
+header .container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo 
+{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .nav-links a 
+{
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .nav-links .login, header .nav-links .sign-up 
+{
+    background-color: #f7a800;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .nav-links a:hover 
+{
+    text-decoration: underline;
+}
+
+.main-menu a 
+{
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.badge 
+{
+  background: #f7a800;
+  color: #000;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  margin-left: 2px;
+}
+
+/* ─────────── BUTTONS ─────────── */
+.user-actions.btn 
+{
+   margin-left: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.outline 
+{
+  background: transparent;
+  color: #fff;
+  border: 2px solid #f7a800;
+}
+
+.btn.outline:hover 
+{
+  background:  #f7a800;
+}
+
+.btn.solid 
+{
+  background: #f7a800;
+  color: #fff;
+  padding: 8px 20px;  
+  font-size: 1rem;  
+  border: none;
+}
+
+.btn.solid:hover 
+{
+  background: #d48700;
+  opacity: 0.9;
+}
+
+.btn.small 
+{
+  background: #d48700;
+  padding: 5px 14px;
+  font-size: 0.8rem;
+}
+
+/* ─────────── SUBNAV / TABS ─────────── */
+.subnav 
+{
+  background: #193b5c;
+}
+
+.subnav .container 
+{          
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+}
+.subnav .tab 
+{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  display: inline-block;
+}
+
+.subnav .tab:not(:last-child) 
+{
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subnav .tab.active 
+{
+  background: #26a0da;
+}
+
+/* ─────────── MAIN DASHBOARD ─────────── */
+.dashboard-wrapper 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0; 
+  background-color: #eaf0f7; 
+}
+
+.dashboard-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 50px; 
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.add-item,
+.current-items 
+{
+  flex: 1;
+  min-width: 300px;
+}
+
+
+.dashboard section 
+{
+  flex: 1;
+}
+
+h2 
+{
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+h3 
+{
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+/* ─────────── STYLING ─────────── */
+form label 
+{
+  display: block;
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+}
+
+input,
+textarea,
+select 
+{
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 4px;
+}
+
+/* ─────────── ITEM LIST ─────────── */
+.item-list 
+{
+  list-style: none;
+}
+
+.item 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

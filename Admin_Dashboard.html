@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Jannah Kitchen</title>
+    <link rel="stylesheet" href="Admin_Dashboard.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">Jannah Kitchen</div>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Cart (0)</a>
+                    <a href="#">Orders</a>
+                    <a href="login.html" class="login">Login</a>
+                    <a href="signup.html" class="sign-up">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="subnav">
+        <div class="container">
+        <a class="tab active" href="#">Menu Management</a>
+        <a class="tab" href="#">Order Management</a>
+        <a class="tab" href="#">Analytics</a>
+        </div>
+    </nav>
+
+    <!-- LEFT SIDE -->
+    <main class="dashboard-wrapper">
+        <div class="dashboard-container">
+            <section class="add-item">
+                <h2>Menu Management</h2>
+                <h3>Add New Item</h3>
+ 
+                <form>
+                    <label>Item Name
+                    <input type="text" placeholder="Nasi Goreng Kampung + Telur Mata" />
+                    </label>
+
+                    <label>Free Drink
+                    <input type="text" placeholder="Sirap Ais" />
+                    </label>
+
+                    <label>Description
+                    <textarea rows="3" placeholder="tak nak sayur"></textarea>
+                    </label>
+
+                    <label>Price (RM)
+                    <input type="number" placeholder="6" />
+                    </label>
+
+                    <label>Category
+                    <select>
+                        <option selected disabled>Select Category</option>
+                        <option value="rice">Rice</option>
+                        <option value="noodles">Noodles</option>
+                        <option value="beverages">Beverages</option>
+                    </select>
+                    </label>
+
+                    <button type="submit" class="btn solid add">Add Item</button>
+                </form> 
+            </section>
+    
+            <!-- RIGHT SIDE -->
+            <section class="current-items">
+                <h3>Current Menu Items</h3>
+
+                <ul class="item-list">
+                    <li class="item">
+                    <div>
+                        <strong>Nasi Goreng Daging + Telur Mata</strong><br />
+                        RM6 – rice
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+
+                    <li class="item">
+                    <div>
+                        <strong>Nasi Goreng Keretapi + Telor Mata</strong><br />
+                        RM6 – rice
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+
+                    <li class="item">
+                    <div>
+                        <strong>Mee Goreng + Telor Mata</strong><br />
+                        RM6 – noodles
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+
+                    <li class="item">
+                    <div>
+                        <strong>Bihun Goreng + Telor Mata</strong><br />
+                        RM6 – noodles
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+
+                    <li class="item">
+                    <div>
+                        <strong>Milo Ais</strong><br />
+                        RM2 – beverages
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+
+                    <li class="item">
+                    <div>
+                        <strong>Green Tea</strong><br />
+                        RM2 – beverages
+                    </div>
+                    <button class="btn solid small">Delete</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
