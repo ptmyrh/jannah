@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2a75b3;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .nav-links a {
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.profile-btn {
+    border: 1px solid white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.logout-btn {
+    background-color: #f7a800;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    header .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+
+    .order-box {
+        padding: 20px;
+    }
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #2a2a2a;
+}
+
+/* Order Box */
+.order-box {
+    background-color: white;
+    padding: 30px;
+    border-left: 5px solid #f7a800;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.order-box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.order-box ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.order-box li {
+    font-size: 16px;
+    list-style-type: disc;
+}
