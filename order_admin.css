@@ -1,0 +1,101 @@
+/* ─────────── SUBNAV ─────────── */
+.subnav {
+  background: #193b5c;
+}
+
+.subnav .tab {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 22px;
+  display: inline-block;
+}
+
+.subnav .tab:not(:last-child) {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.subnav .tab.active {
+  background: #26a0da;
+}
+
+
+/* ─────────── MAIN DASHBOARD ─────────── */
+.dashboard-wrapper 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0; 
+  background-color: #eaf0f7; 
+}
+
+.dashboard-container 
+{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 50px; 
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+}
+
+.add-item,
+.current-items 
+{
+  flex: 1;
+  min-width: 300px;
+}
+
+
+.dashboard section 
+{
+  flex: 1;
+}
+
+h2 
+{
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+h3 
+{
+  margin: 20px 0 10px;
+  font-size: 1.1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.confirmed {
+    background-color: #28a745;
+    color: white;
+}
+
+.verification {
+    background-color: #6c757d;
+    color: white;
+}
