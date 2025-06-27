@@ -1,0 +1,79 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header */
+header 
+{
+    background-color: #2a75b3;
+    padding: 15px 0;
+    margin-bottom: 20px;
+} 
+
+header .menu-header 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .logo 
+{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .nav-links a 
+{
+    color: #fff;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .nav-links .login, header .nav-links .sign-up 
+{
+    background-color: #f7a800;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .nav-links a:hover 
+{
+    text-decoration: underline;
+}
+
+.main-menu a 
+{
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.badge 
+{
+  background: #f7a800;
+  color: #000;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  padding: 1px 6px;
+  margin-left: 2px;
+}
+
+
